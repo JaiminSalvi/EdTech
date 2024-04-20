@@ -1,0 +1,23 @@
+.background {
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    /* opacity: 1; */
+    /* animation: fadeIn 0.5s forwards; */
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    50%{
+        opacity: 0.5;
+    }
+    100% { opacity: 1; }
+  }
+  
+  .background img {
+    max-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .background:hover img {
+    opacity: 0;
+  }
